@@ -1,0 +1,27 @@
+body {
+  background-color: Blue;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.poster {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+}
+
+.motivation-img {
+  border: 5px solid white;
+  width: auto;
+  height: 300px;
+  transition: height 0.1s;
+}
+.motivation-img:hover{
+  height: 310px;
+  width: auto;
+}
